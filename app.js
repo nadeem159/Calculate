@@ -55,7 +55,9 @@ function showError(error) {
     const erroDiv = document.createElement('div');
 
     // add class
-    erroDiv.className = 'alert alert-danger';
+    erroDiv.className = 'alert alert-warning';
+//     erroDiv.className = 'alert alert-danger';
+    
 
     // apendchidl
     erroDiv.appendChild(document.createTextNode(error));
